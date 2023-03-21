@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test pro select</title>
+</head>
+<body>
+    <label for="years">Choose a car:</label>
+
+<select name="years" id="years" onchange="getValuesByYear()">
+  <option value="1910">1910</option>
+  <option value="1921">1921</option>
+  <option value="2021">2021</option>
+  <option value="2022">2022</option>
+  <option value="2023">2023</option>
+</select>
+<br><br>
+<label id="resultYear">Rok: </label>
+
+<br><br>
+<label id="resultYear">Polozky: </label>
+<div id="divPolozky"><p id="polozkyToShow"></p></div>   
+<br><br> <br>
+
+<div id="createSelect"></div>
+  
+</select>
+</body>
+<script src="script.js"></script>
+</html>
